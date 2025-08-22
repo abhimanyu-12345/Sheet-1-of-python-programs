@@ -1,5 +1,4 @@
 percentage = float(input("Enter your percentage: "))
-
 if percentage < 25:
     grade = "D"
 elif percentage < 45:
@@ -10,5 +9,4 @@ elif percentage < 85:
     grade = "A"
 else:
     grade = "A+"
-
-print("Your  grade is :", grade)
+print("Your grade is :", grade)
